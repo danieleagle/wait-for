@@ -1,6 +1,6 @@
 {
   "name": "wait-for",
-  "version": "2.2.4",
+  "version": "1.0.0",
   "scripts": {
     "test": "bats wait-for.bats",
     "test:docker": "docker build --target test-env --tag wait-for-test . && docker run --rm wait-for-test"
